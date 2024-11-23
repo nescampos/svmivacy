@@ -1,0 +1,22 @@
+[package]
+name = "svmivacy"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "contracts"
+]
+
+[dependencies]
+contracts = { path = "./contracts" }
+anchor-lang = "=0.24.2"
+solana-program = "=1.9.13"
+thiserror = "1.0"
+
+[dev-dependencies]
+anchor-client = "=0.24.2"
+anchor-spl = "=0.24.2"
+solana-program-test = "=1.9.13"
+solana-sdk = "=1.9.13"
+tokio = { version = "~1.14.1", features = ["full", "macros", "rt", "rt-multi-thread"] }
