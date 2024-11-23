@@ -2,7 +2,7 @@
 
 SVMivacy is a high-performance, privacy-focused decentralized exchange (DEX) on the SOON blockchain. Leverage SVM’s speed and Rust’s strengths in concurrency, safety, and performance to create a secure, scalable, and user-friendly platform.
 
-[Current architecture and plan for the future](./global.md)
+[Current architecture, documentation and plan for the future](./global.md)
 
 ## Building the Project
 
