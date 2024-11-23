@@ -1,0 +1,4 @@
+/target
+/node_modules
+/contracts/target
+/frontend/node_modules
